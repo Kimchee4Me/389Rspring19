@@ -17,7 +17,7 @@ Digital acknowledgement: Esther Malone
 4. I found the IP: 142.93.136.81 using centralops.net using the domain name from their website. It also listed the flag CMSC389R-{h0w_2_iNt0_DNS_r3c0Rd5}. Then using the IP on Shogan I can see it is located in New York. It also listed the flag I also found on dnstrails.com with this IP address, Historial data for 1337bank.money. Here I found the IP address 162.255.118.61 which is in Los Angeles. Additionally on DNS dumpster, I found additional dns records with  216.87.152.33. 
 5. Looking at the robot.txt of the website I found the secret_directory with the flag CMSC389R-{h1ding_fil3s_in_r0bots_L0L}. 
 6.With ipfingerprints I found the port 1337 on the service waste. 
-7.
+7. From Shodan I can see it is running on ubuntu
 8.CMSC389R-{0M3g$LUL_G3T_pWN3d_N00b} Reddit
 
 ### Part 2 (75 pts)
