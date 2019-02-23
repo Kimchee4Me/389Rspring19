@@ -22,7 +22,6 @@ Digital acknowledgement: Esther Malone
 
 ### Part 2 (75 pts)
 In my stubpy, I iterate through the rockyou file and send in the username and a password until it is successful, to print out the password. 
-password: linkinpark
 Within the home directory of the server I found the flag: CMSC389R-{brut3_f0rce_m4ster}
 
 
