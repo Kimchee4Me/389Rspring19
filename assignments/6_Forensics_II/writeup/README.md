@@ -15,14 +15,13 @@ Digital acknowledgement: Esther Malone
 2) nmap
 3) 142.93.136.81
 4) 21
-5)
-  a)
-  b)
-  c)
-  d)
-  e)
-6)
-7)
+5) findme.jpeg
+  a) This is a .jpeg file
+  b) Rambla General Jose Artigas, 20100 Punta del Este, Departamento de Maldonado, Uruguay
+  c) 2018:12:23 17:16:24
+  d) 4.5 m 
+6) greetz.fpff
+7) 
 
 ### Part 2 (55 Pts)
 
