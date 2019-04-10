@@ -81,7 +81,27 @@ for i in range(0, section_count + 2):
 	contents = struct.unpack("<%dL" % (section_length/4), data[start_of_section:end_of_section])
 	print(" CONTENTS: %s\n" % unicode(contents))
 			
-
+     elif section_type == 4:
+	print(" SECTION_DWORDS")
+	contents = struct.unpack("<%dQ" % (section_length/8), data[start_of_section:end_of_section])
+	print(" CONTENTS: ")
+	for i in range (section_length / 8):
+		print(contents[i] + "\n")
+     elif section_type == 5:
+	print("SECTION_DOUBLES")
+	contents = struct.unpack(str(section_length) + "s", data[start_of_section:end_of_section])
+	print(" CONTENTS: %s\n" % contents)
+     elif section_type == 6:
+	print("SECTION_COORD")
+	cord_1 , cord_2 = struct.unpack("<dd", data[start_of_section:end_of_section])
+	print(" CONTENTS: %s , %s \n" %(str(cord_1), str(cord_2)))
+     elif section_type == 7:
+	print("SECTION_REFERENCE ")
+	contents, = struct.unpack("<L", data[start_of_section:end_of_section])
+	print("CONTENTS: %s\n" % contents)
+     elif section_type == 8:
+	print("SECTION_PNG ")
+			
     start = end_of_section 
     end = start + 8
 
