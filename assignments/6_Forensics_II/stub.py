@@ -54,7 +54,7 @@ print("-------  BODY  ------- ")
 
 start = 24 
 end = start + 8
-for i in range(0, section_count + 2):
+for i in range(section_count + 2):
     section_type, section_length = struct.unpack("<LL", data[start:end])
     section_number = i + 1
 		
