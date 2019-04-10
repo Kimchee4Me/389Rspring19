@@ -24,5 +24,37 @@ Digital acknowledgement: Esther Malone
 7) 
 
 ### Part 2 (55 Pts)
+The author of greetz.fpff is fl1nch
+The section count was 5. 
 
-*Replace this text with your repsonse to our prompt for part 2!*
+Section 1: 
+Type: 1, SECTION ASCII
+Contents: Hey you, keep looking :)
+
+Section 2: 
+Type: 6, SECTION_COORD
+Contents: 52.336035, 4.880673
+
+Section 3:
+Type: 8, SECTION PNG
+Created PNG image of testudo
+
+Section 4: 
+Type 1: SECTION_ASCII
+Contents: }R983CSMC_perg_tndid_u0y_yllufep0h{-R983CSMC
+
+Section 5:
+Type: 1
+Contents: Q01TQzM4OVIte2hleV9oM3lfeTBVX3lvdV9JX2RvbnRfbnRfbGlrZV95b3VyX2Jhc2U2NF9lbmNvZGluZ30=
+
+
+Flags
+First one was in the fourth section
+}R983CSMC_perg_tndid_u0y_yllufep0h{-R983CSMC
+
+Next was in the image from the png section
+CMSC389R-{w3lc0me_b@ck_fr0m_spr1ng_br3ak}
+
+This one was in section 5 its contents: Q01TQzM4OVIte2hleV9oM3lfeTBVX3lvdV9JX2RvbnRfbnRfbGlrZV95b3VyX2Jhc2U2NF9lbmNvZGluZ30=
+converts base64 to 
+CMSC389R-{hey_h3y_y0U_you_I_dont_nt_like_your_base64_encoding}
